@@ -19,21 +19,15 @@ body{
 
 .hand{
 	color: #FFF;
-	border-bottom:1px solid #000;
+	border-bottom:2px solid #000;
 	width: 50%;
 	margin: auto;
-	position: relative;
+	position: absolute;
 	top: 75px;
-	left: 37.5px;
-	 
-}
-.hand-hour{
-	color: #FFF;
-	border-bottom:10px solid #CCC;
-	width: 50%;
-	margin: auto;
-	position: relative;
-	top: 75px;
-	left: 37.5px;
+	left: 75px;
+	transform-origin: 0%;
+	transform: rotate(-90deg);
+	transition: all 0.05s;
+	transition-timing-function: cubic-bezier(0.36, 1.55, 0.58, 1);
 	 
 }
